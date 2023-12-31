@@ -64,6 +64,7 @@ export default function SignUp() {
           className="border p-3 rounded-lg"
           id="password"
           onChange={changeHandler}
+          required
         />
         <button
           disabled={loading}
