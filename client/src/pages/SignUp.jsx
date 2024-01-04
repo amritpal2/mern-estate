@@ -17,6 +17,10 @@ export default function SignUp() {
 
   const submit = async (e) => {
     e.preventDefault();
+    if (formData.password && formData.password.length < 8) {
+      setError("Password must be at least 8 characters long.");
+      return;
+    }
     try {
       setLoading(true);
       const res = await fetch("/api/auth/signup", {
