@@ -228,11 +228,11 @@ export default function Profile() {
       <div className="flex justify-between mt-5">
         <span
           onClick={handleDeleteUser}
-          className="text-red-700 cursor-pointer"
+          className="text-red-800 bg-red-300 px-2 rounded-md cursor-pointer hover:bg-red-200"
         >
           Delete account
         </span>
-        <span onClick={handleSignOut} className="text-red-700 cursor-pointer">
+        <span onClick={handleSignOut} className="text-red-800 bg-red-300 px-2 rounded-md cursor-pointer hover:bg-red-200">
           Sign out
         </span>
       </div>
