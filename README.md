@@ -1,33 +1,33 @@
-MERN Estate
+MERN Estate<br>
 MERN Estate is a full-stack application built using the MERN stack (MongoDB, Express, React, Node.js). The project focuses on real estate management, providing users with the following features:
 
-User Authentication: Users can log in to the application.</br>
-Property Viewing: Users can view available properties.</br>
-Property Search: Users can search for specific properties.</br>
-Favorites: Users can mark properties as favorites.</br>
-Booking Visits: Users can book property visits.</br>
-Booking Management: Users can manage their bookings.</br>
+1.User Authentication: Users can log in to the application.</br>
+2.Property Viewing: Users can view available properties.</br>
+3.Property Search: Users can search for specific properties.</br>
+4.Favorites: Users can mark properties as favorites.</br>
+5.Booking Visits: Users can book property visits.</br>
+6.Booking Management: Users can manage their bookings.</br>
 
 Getting Started
-Clone the repository:
-git clone https://github.com/amritpal2/mern-estate.git
+Clone the repository:</br>
+`git clone https://github.com/amritpal2/mern-estate.git`
 
-Install dependencies:
-cd mern-estate
-'''npm install'''
+Install dependencies:</br>
+`cd mern-estate`</br>
+`npm install`</br>
 
-Set up your MongoDB database and configure the connection in server/config/db.js.
+Set up your MongoDB database and configure the connection in `server/index.js`.
 
-Start the development server:
-npm run dev
+Start the development server:</br>
+`npm run dev`
 
 Technologies Used
-MongoDB: Database for storing property data.</br>
-Express: Backend framework for handling API requests.</br>
-React: Frontend library for building the user interface.</br>
-Node.js: Backend runtime environment.</br>
-Tailwind CSS: Used for styling.</br>
+* MongoDB: Database for storing property data.</br>
+* Express: Backend framework for handling API requests.</br>
+* React: Frontend library for building the user interface.</br>
+* Node.js: Backend runtime environment.</br>
+* Tailwind CSS: Used for styling.</br>
 
 
-Deployment
+</h5>Deployment</h5></br>
 The application is deployed at https://mern-estate-l4vn.onrender.com/
