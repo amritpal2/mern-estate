@@ -24,7 +24,7 @@ export default function Header() {
     }
   }, [location.search]);
   return (
-    <header className="bg-stone-400 shadow-md p-2">
+    <header className="bg-slate-200 shadow-md p-2">
       <div className="flex justify-between px-4">
         <Link to={"/"}>
           <h1 className="font-bold text-sm sm:text-xl flex flex-wrap">
